@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="http://localhost:9090/api/" method="post" enctype="multipart/form-data">
+            <div>
+              <label for='title'>title</label>
+              <input type='text' name='title'>
+            </div>
+            <div>
+              <label for='desc'>desc</label>
+              <textarea type='text' name='desc'></textarea>
+            </div>
+            <div>
+              <label for='image'>userName</label>
+              <input type="file" name="image" id="">
+            </div>
+            <div>
+              <label for='userName'>userName</label>
+              <textarea type='text' name='userName'></textarea>
+            </div>
+            <button type='submit'>Submit</button>
+          </form>
+    </div>
+</body>
+</html>
